@@ -35,6 +35,7 @@ exports.homepage = async (req, res) => {
       console.log(error);
     }
 }
+
 // exports.homepage = async (req, res) => {
 //     const messages = await req.consumeFlash('info');
 //     const locals = {
